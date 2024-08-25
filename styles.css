@@ -1,0 +1,220 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: #f9f9f9;
+}
+
+.nav{
+	margin-top: 40px;
+    margin-left: 56px;
+    margin-right: 56px;
+	display: flex;
+    height: 43px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.logo{
+    
+    height: 43px;
+    width: 281px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    width: 100%;
+    font-size: 27px;
+    margin-left: 4px;
+    display: flex;
+    justify-content: flex-end;
+      }
+
+#logo {
+    padding: 0;
+    object-fit:cover;
+    margin-right: 4px;
+    width: 68px;
+}
+
+.menu{
+    height: 24px;
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.menu :last-child {
+    color: #71A894;
+}
+
+
+
+#first-section{
+    margin-right: 0px;
+    margin-top: 59px;
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    margin-left: 56px;
+    margin-right: 56px;
+    
+}
+
+#fs-left{
+    
+    width: 700px;
+    padding-right: 0;
+}
+
+#first-image{
+    width: 776px;
+    height: 841px;
+    margin-top: 0px;
+    margin-right: 0px;
+   
+}
+
+h2{
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 78px;
+  padding-top: 132px;
+  padding-right: 0px;
+  
+}
+h3{
+    font-family: "Abril Fatface", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.text1{
+    margin-top: 24px;
+    font-family: "roboto";
+    font-size: 28px;
+}
+
+button {
+    margin-top: 40px;
+   width: 219px;
+   height: 64px;
+   border-radius: 10px;
+   background-color:#71A894;
+   color: white;
+   font-size: 18px;
+}
+
+#second-section{
+    margin-top: 198px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 56px;
+}
+
+.text2{
+    margin-top: 24px;
+    font-family: "roboto";
+    font-size: 20px;
+    text-align: center; 
+    
+}
+
+#cards{
+    
+    height: 340px;
+    margin-right: 56px;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+}
+
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    
+    
+}
+
+.card-img{
+    height: 88px;
+    width: 104px;
+    margin-top: 64px;
+    object-fit:contain;
+}
+
+.card-title{
+    margin-top: 24px;
+    font-size: 24px;
+    font-family: "roboto";
+    font-weight: 600;
+}
+
+.card-text{
+    margin-top: 16px;
+    margin-inline: 12px;
+    font-family: "roboto";
+}
+
+.third-section{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.info{
+    
+    padding-left: 80px;
+    padding-top: 193px;
+}
+.info-img{
+    width: 80px;
+}
+
+
+.text3{
+    margin-top: 24px;
+    text-align: left;
+    font-family: "roboto";
+}
+
+#ilustration-img{
+    
+    margin-left: 120px;
+    padding-top: 160px;
+    width: 484px;
+    height: 400px;
+
+}
+
+
+    
+
+
+
+
