@@ -3,145 +3,121 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+section{
+    margin-inline: 56px;
+  
+}
 body{
     background-color: #f9f9f9;
 }
 
-.nav{
-	margin-top: 40px;
-    margin-left: 56px;
-    margin-right: 56px;
-	display: flex;
-    height: 43px;
-	align-items: center;
-	justify-content: space-between;
-}
-
-
-.logo{
-    
-    height: 43px;
-    width: 281px;
+#nav{
+    margin-top: 40px;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
-
-
-h1{
+#logo{
+    display: flex;
+    align-items: center;
+    width: 281px;
+}
+#logo img{
+    width: 68px;
+    height: 40px;
+}
+#logo p{
+   
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    width: 100%;
-    font-size: 27px;
-    margin-left: 4px;
-    display: flex;
-    justify-content: flex-end;
-      }
-
-#logo {
-    padding: 0;
-    object-fit:cover;
-    margin-right: 4px;
-    width: 68px;
+    font-size: 28px;
+    font-weight: 600;
+    width: 205px;
 }
-
-.menu{
-    height: 24px;
+#menu{
     width: 650px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     font-family: "roboto";
     font-weight: 500;
     font-size: 20px;
 }
-
-.menu :last-child {
+#menu :last-child{
     color: #71A894;
 }
 
 
-
-#first-section{
-    margin-right: 0px;
-    margin-top: 59px;
+#section1{
     display: flex;
-    flex-direction: row;
+    margin-right: 0;
+    margin-top: 40px;
+}
+#section1 div{
+    
+    width: 608px;
 }
 
-section{
-    margin-left: 56px;
-    margin-right: 56px;
+h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    margin-top: 132px;
+    height: 160px;
+}
+#section1 p{
+    height: 64px;
+    margin-top: 24px;
+    font-family: "roboto";
+    font-size: 23px;
+}
+
+button{
+    margin-top: 40px;
+    width: 219px;
+    height: 64px;
+    border-radius: 10px;
+    background-color:#71A894;
+    color: white;
+    font-size: 18px;
+}
+
+#section1 img{
+    height: 720px;
+    width: 900px;
     
 }
 
-#fs-left{
-    
-    width: 700px;
-    padding-right: 0;
-}
-
-#first-image{
-    width: 776px;
-    height: 841px;
-    margin-top: 0px;
-    margin-right: 0px;
-   
-}
 
 h2{
     font-family: "Abril Fatface", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 78px;
-  padding-top: 132px;
-  padding-right: 0px;
+  font-size: 48px;
   
 }
-h3{
-    font-family: "Abril Fatface", serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 50px;
-}
-
-.text1{
-    margin-top: 24px;
-    font-family: "roboto";
-    font-size: 28px;
-}
-
-button {
-    margin-top: 40px;
-   width: 219px;
-   height: 64px;
-   border-radius: 10px;
-   background-color:#71A894;
-   color: white;
-   font-size: 18px;
-}
-
-#second-section{
+#section2{ 
     margin-top: 198px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 56px;
+}
+#section2 h2{
+    text-align: center;
+    margin-top: 198px;
+    
+}
+#section2 p{
+    text-align: center;
 }
 
-.text2{
+.text{
     margin-top: 24px;
     font-family: "roboto";
-    font-size: 20px;
-    text-align: center; 
-    
+    font-size: 18px;
+    text-align: left; 
 }
 
 #cards{
     
     height: 340px;
-    margin-right: 56px;
     margin-top: 48px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -180,41 +156,137 @@ button {
     font-family: "roboto";
 }
 
-.third-section{
+.section-page{
     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+   
     
 }
 
-.info{
+.info-section{
+    width: 644px;
+    height: 334;
     
-    padding-left: 80px;
-    padding-top: 193px;
 }
 .info-img{
     width: 80px;
+    margin-bottom: 24px;
 }
 
-
 .text3{
-    margin-top: 24px;
+    margin-top: 18px;
     text-align: left;
     font-family: "roboto";
 }
 
-#ilustration-img{
-    
+
+img[alt="il3"]{
     margin-left: 120px;
-    padding-top: 160px;
+    margin-top: 160px;
     width: 484px;
     height: 400px;
-
 }
 
 
+
+img[alt="il4"]{
+    margin-top: 160px;
+    margin-left: 27px;
+    width: 484px;
+    height: 412px;
+}
+
+img[alt="il5"]{
     
+    margin-top: 160px;
+    margin-left:0px;
+    width: 644px;
+    height: 500px;
+  
+}
+img[alt=il6]{
+    margin-top: 160px;
+    width: 644px;
+    height: 361px;
+}
+#section6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+#section6 h2{
+    margin-top: 160px;
+    text-align: center;
+   
+}
+#section6 p{
+    text-align: center;
+}
 
 
+.task{
+    
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.task-img{
+    width: 427px;
+}
+#section6 button{
+    width: 136;
+    height: 64;
+    background-color: black;
+    text-align: center
+    
+}
+#section3 div{
+    
+    margin-top: 193px;
+}
+
+#section4 div{
+    
+    margin-top: 183px;
+}
 
 
+#section5 div{
+    
+    margin-top: 242px;
+}
+#section7{
+    display: flex;
+    justify-content: space-between;    
+   
+    
+}
+#section7 h2{
+    margin-top: 219px;
+}
+#section8{
+    margin-bottom: 40px ;
+    margin-top: 126px;
+    font-family: roboto;
+    display: flex;
+    justify-content: space-between;
+}
+#section8 .open{
+    
+    font-size: 24px;
+    font-weight: 500;
+}
+#section8 .menu{
+    font-size: 20px;
+    font-weight: 400;
+    width: 464px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu :last-child{
+    color: #71A894;
+}
